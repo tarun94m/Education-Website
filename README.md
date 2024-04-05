@@ -1,4 +1,4 @@
 # Education-Website
-# Using hooks in React.
-# Responsive Website
+Using hooks in React.
+Responsive Website
 
