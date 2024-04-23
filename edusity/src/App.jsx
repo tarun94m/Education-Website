@@ -20,14 +20,15 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <div className="container">
-          <Title subTitle='Our Programs' title='What We Offer'/>
+          <Title subTitle='Our Programs' title='What We Offer' id="program"/>
           <Programs/>
           <About setPlayState={setPlayState}/>
-          <Title subTitle='Gallery' title='Campus Photos'/>
+          <Title subTitle='Gallery' title='Campus Photos' id="gallery"/>
           <Campus/>
-          <Title subTitle='Testimonials' title='What Students Say'/>
+          <Title subTitle='Testimonials' title='What Students Say' id="testimonial"/>
           <Testimonials/>
-          <Title subTitle='Contact Us' title='Get In Touch'/>
+          <Title subTitle='Contact Us' title='Get In Touch' id="contact"/>
+          {/* https://www.geeksforgeeks.org/reactjs-in-page-navigation/ */}
           <Contact/>
           <Footer/>
       </div>
